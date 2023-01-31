@@ -50279,11 +50279,12 @@ for(s=o.y,r=s.length,q=0;q<s.length;s.length===r||(0,A.E)(s),++q){p=s[q]
 f.push(new A.ho(p.c,p.d,i,j,0,n))}f.push(A.wQ(B.tG,A.a7f(o.w?B.f.L(o.r,0):"PRESS SPACE TO START",B.GT,n,n),n,n,n,n,n,n))
 return new A.rc(new A.qH(h,!0,o.gRI(),A.a2W(n,A.a5u(A.a([A.K8(A.wQ(n,A.BG(B.cb,f,B.dm),B.k,n,k,n,n,l*0.3),n,n)],g),B.kd,B.pJ),B.b8,!1,n,n,n,n,n,n,n,n,n,n,n,n,o.gTm(),n,n,n,n),n),B.Ci,n)}}
 A.Z7.prototype={
-$1(a){var s=this.a,r=s.at
-if(s.d>r[0])s.ae(new A.Z6(s))
-if(s.d<=r[0]){r=s.as
-if(r!=null)r.bt(0)
-s.f=0}},
+$1(a){var s,r=this.a,q=r.at
+if(r.d>q[0])r.ae(new A.Z6(r))
+if(r.d<=q[0]){s=r.as
+if(s!=null)s.bt(0)
+r.d=q[0]
+r.f=0}},
 $S:27}
 A.Z6.prototype={
 $0(){var s=this.a
@@ -50291,11 +50292,12 @@ s.d=s.d-0.05*(s.r*0.1+1)
 s.f=-0.3},
 $S:0}
 A.Z9.prototype={
-$1(a){var s=this.a,r=s.at
-if(s.d<r[1])s.ae(new A.Z8(s))
-if(s.d>=r[1]){r=s.as
-if(r!=null)r.bt(0)
-s.f=0}},
+$1(a){var s,r=this.a,q=r.at
+if(r.d<q[1])r.ae(new A.Z8(r))
+if(r.d>=q[1]){s=r.as
+if(s!=null)s.bt(0)
+r.d=q[1]
+r.f=0}},
 $S:27}
 A.Z8.prototype={
 $0(){var s=this.a
